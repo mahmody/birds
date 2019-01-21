@@ -1503,4 +1503,4 @@ hours = 12;
     });
   }
 });
-client.login('NDgxODI2MDYwMDU3NzA2NTI2.Dl7_kQ.4msK7EzWC5ly3f3PfUJcPeAJuIA');
+client.login(process.env.TOKEN);
