@@ -15,7 +15,7 @@ const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
 const prefix = "!";
-const p = "-";
+const p = "!";
 var errors = 0;
 client.on('message', message => {
      if (message.content === "سلام عليكم") {
@@ -29,7 +29,7 @@ client.on('message', message => {
      if (message.content === "Developer") {
       const embed = new Discord.RichEmbed()
   .setColor("RANDOM")
-  .setDescription('**Our Developers** ! ℳ𝒜ℋℳ𝒪𝒰𝒟 ♕♕💎♕♕#0007`')
+  .setDescription('**Our Developers** Demon's Red Stuffs`')
   message.channel.sendEmbed(embed);
     }
 });
